@@ -311,6 +311,10 @@
     font-size: 1.25rem;        
     }
 
+    body {
+    background: url("../assets/fmkbackgroundmobile.png") center/cover no-repeat;
+    }
+
   }
 
   
