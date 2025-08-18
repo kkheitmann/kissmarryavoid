@@ -1,0 +1,1297 @@
+[
+  {
+    "person": "henry cavill",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "jj",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "john be",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "pedro pascal",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "carlos",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "david tennant",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "ellie",
+    "category": "god",
+    "gender": "female",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "george russell",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "marlene",
+    "category": "god",
+    "gender": "female",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "arthur",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "young hosea",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "sebastian sallow",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "cillian murphy",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "mo chara",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "aaron taylor johnson",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "hayden christensen",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "anakin",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "markiplier (prime)",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "pewdiepie (prime)",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "marc liam",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "john marathon (marston)",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "joel",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "alex turner prime",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "lana del rey",
+    "category": "god",
+    "gender": "female",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "rafe",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "sam (uncharted)",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "soldier boy",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "django",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "jeremiah",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "james potter",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "sirius",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "remus",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "barty",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "draco",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "damon",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "han solo/indy",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "commodore norrington",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "woody naked footloose shower guy",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "marlon brando",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "tom hardy",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "chat gpt",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "moglaí bap",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "hans",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "henry",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "Aragorn",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "jan žižka",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "lloyd",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "cole",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "bradley cooper the hangover",
+    "category": "god",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "christian bale",
+    "category": "god",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "rhea ripley",
+    "category": "god",
+    "gender": "female",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "pedro pascal",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "charles",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "toto wolff",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "george",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "dj provaí",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "tom hiddleston",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "ewan mcgregor",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "jacksepticeye",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "marc liam",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "italian bee worker in his prime",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "sarah cameron",
+    "category": "good",
+    "gender": "female",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "maria",
+    "category": "good",
+    "gender": "female",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "nate",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "rafe",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "soldier boy",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "miguele",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "ominis gaunt",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "tim edeka",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "yaz",
+    "category": "good",
+    "gender": "female",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "chav dudley",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "barry obx drug dealer",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "ennio",
+    "category": "good",
+    "gender": "male",
+    "age": "old",
+    "who": "you"
+  },
+  {
+    "person": "jeremiah",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "albert einser belgium",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "albert einer monaco",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "sam gen v",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "gale",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "peeta",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "bob ???",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "justus???",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "peter ???",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "sirius",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "remus",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "florian wirtz",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "ryan life in the dreamhouse",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "jesse pinkman",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "jesse",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "arthur leclerc",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "lorenzo leclerc",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "max",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "charles rdr",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "skinny norri",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "han solo",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "helena bonham carter",
+    "category": "good",
+    "gender": "female",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "marlene",
+    "category": "good",
+    "gender": "female",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "albert zweier belgium in his prime",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "albert zweier monaco",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "klaas heufer umlauf",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "joko winterscheidt",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "viktor krum",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "aragorn",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "legolas/will",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "marlon brando",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "paul walker",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "jordan lee",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "harry styles",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "louis tomlinson",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "zayn malik",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "kaz",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "pedro pascal",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "lucius malfoy",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "lewis",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "narcissa malfoy",
+    "category": "good",
+    "gender": "female",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "robert de niro prime",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "kendrick lamar",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "sadie",
+    "category": "good",
+    "gender": "female",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "tom hardy",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "javier",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "oscar piastri",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "alex albon",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "lando",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "tesco winking man",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "moglaí baps brother",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "inspector cotta",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "julien baker",
+    "category": "good",
+    "gender": "female",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "ward",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "kies dad",
+    "category": "good",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "kai",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "teenie wu",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "emmett richmond legally blonde",
+    "category": "good",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "oscar isaac",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "jackscepticeye",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "josiah trelawny",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "homelander",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "tom",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "torben",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "chav dudley",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "childs frick",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "baker man nizza",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "ennio",
+    "category": "mid",
+    "gender": "male",
+    "age": "old",
+    "who": "me"
+  },
+  {
+    "person": "albert einser monaco",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "conrad",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "gale",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "peeta",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "peter ???",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "ron",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "florian wirtz",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "ryan life in the dream house",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "hughie",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "butcher",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "jesse pinkman",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "damon",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "albert zweier monaco",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "klaas heufer umlauf",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "joko winterscheidt",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "julien baker",
+    "category": "mid",
+    "gender": "female",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "niall horan",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "narcissa malfoy",
+    "category": "mid",
+    "gender": "female",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "didy",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "rose obx",
+    "category": "mid",
+    "gender": "female",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "ominös gaunt",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "Barry obs drug dealer",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "you"
+  },
+  {
+    "person": "damiano david",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "kies dad",
+    "category": "mid",
+    "gender": "male",
+    "age": "middle",
+    "who": "me"
+  },
+  {
+    "person": "zayn",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "jay",
+    "category": "mid",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "old wu",
+    "category": "mid",
+    "gender": "male",
+    "age": "old",
+    "who": "both"
+  },
+  {
+    "person": "coke man",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "trump",
+    "category": "bad",
+    "gender": "male",
+    "age": "old",
+    "who": "both"
+  },
+  {
+    "person": "elon musk",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "david",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "homelander",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "you"
+  },
+  {
+    "person": "jan edeka",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "simon edeka",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "torben",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "stormfront",
+    "category": "bad",
+    "gender": "female",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "hughie",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "me"
+  },
+  {
+    "person": "luke skywalker",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "jos verstappen",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "liam payne",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "jaxson tiktok customer support",
+    "category": "bad",
+    "gender": "male",
+    "age": "young",
+    "who": "both"
+  },
+  {
+    "person": "alonso",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "checo",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  },
+  {
+    "person": "christian hroner",
+    "category": "bad",
+    "gender": "male",
+    "age": "middle",
+    "who": "both"
+  }
+]

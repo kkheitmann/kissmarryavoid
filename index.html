@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meine Website</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1 class="title">KISS MARRY AVOID</h1>
+<header class="subtitle">
+    welcome
+</header>
+
+<h2>
+    how do you want to play:
+</h2>
+
+
+<section class="panel" aria-labelledby="filters-title">
+  <div class="panel__body">
+    <div class="filters">
+
+      <!-- gender -->
+      <div class="filter-group">
+        <h4 id="filter-gender">gender</h4>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="male" /> male
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="female" /> female
+        </label>
+      </div>
+
+      <!-- age -->
+      <div class="filter-group">
+        <h4 id="filter-age">age</h4>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="young" /> young
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="middle" /> middle
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="old" /> old
+        </label>
+      </div>
+
+      <!-- who -->
+      <div class="filter-group">
+        <h4 id="filter-who">who</h4>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="you" /> you
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" class="filter" id="me" /> me
+        </label>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<h2>
+    choose your category:
+</h2>
+
+<div class="buttons">
+    <button class="button" id="clickedgod"><span>god</span></button>
+    <button class="button" id="clickedgood">good</button>
+    <button class="button" id="clickedmid">mid</button>
+    <button class="button" id="clickedbad">bad</button>
+</div>
+
+<br>
+
+<div class="fmk-grid">
+    <div class="fmk-card" id="fmkone">
+        <div class="fmk-output"></div>
+        <div class="cardtitle">??</div>
+        <div class="fmk-label"></div>
+    </div>
+
+    <div class="fmk-card" id="fmktwo">
+        <div class="fmk-output"></div>
+        <div class="cardtitle">??</div>
+        <div class="fmk-label"></div>
+    </div>
+
+    <div class="fmk-card" id="fmkthree">
+        <div class="fmk-output"></div>
+        <div class="cardtitle">??</div>
+        <div class="fmk-label"></div>
+    </div>
+</div>
+
+<div class="fmk-testclass" id="fmk-testdiv"></div>
+
+<div class="testclass" id="testdiv"></div>
+
+<div id="output"></div>
+<script src="./scripts/main.js"></script>
+</body>
+</html>

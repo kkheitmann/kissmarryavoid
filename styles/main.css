@@ -1,0 +1,332 @@
+/* =========
+   Design-Variablen
+   ========= */
+   :root{
+    --bg: #f9f9f9;
+    --panel: #151922;
+    --panel-2: #111520;
+    --text: #ecf0f8;
+    --muted: #ff89d6;
+    --border: #ffccfc;
+
+    --ring:  rgba(255, 121, 188, 0.45);
+    --pink:  #ff89d6;      
+    --pink-2:#fb71cb;             
+    --shadow: 0 4px 14px rgba(0,0,0,.12);
+    --shadow-sm: 0 2px 6px rgba(0,0,0,.08);
+
+  
+    --god:   #b49bff; /* Lila */
+    --good:  #a1ddff; /* Grün */
+    --mid:   #fbbf24; /* Gelb */
+    --bad:   #f87171; /* Rot */
+    --accent:#ffc8f2; /* Blau */
+  
+    --gap-md: 14px;
+    --gap-lg: 24px;
+    
+    --shadow-1: 0 10px 30px rgba(0,0,0,.25);
+    --shadow-2: 0 4px 14px rgba(0,0,0,.3);
+  }
+  
+
+  /*base*/
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    font-family: Georgia, serif;
+
+    background: url("../assets/img/fmkbackground.png") center/cover no-repeat;
+    color:var(--text);
+    line-height:1.5;
+
+    text-align: center;
+  }
+  
+  /* layout */
+  
+  .title{
+    font-size: clamp(26px, 3vw, 36px);
+    font-weight:800;
+    letter-spacing:.5px;
+    font-style: italic;
+  }
+  
+  
+/* filter container */
+.filters{
+  display:flex;
+  justify-content: center;
+  gap:34px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+}
+
+
+.filter-group h4{
+  margin:0 0 10px; 
+  font-size:16px; 
+  letter-spacing:0.6px; 
+  
+}
+
+
+/* checkboxen filter */
+.checkbox{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin:8px 0;
+  cursor:pointer;
+}
+
+
+  
+  /* checkboxen */
+  input[type="checkbox"]{
+    appearance:none;
+    width:18px; height:18px;
+    border:1px solid var(--border);
+    border-radius:6px;
+    border-color: var(--border);
+    display:inline-grid; place-content:center;
+    background: var(--bg);
+    transition: all .2s ease;
+    cursor:pointer;
+  }
+  input[type="checkbox"]:hover{
+    border-color:rgb(255, 137, 214);
+  }
+  
+  input[type="checkbox"]::before{
+    content:"❤";
+    font-size:15px;
+    color:rgb(226, 119, 255);
+    transform: scale(0);
+    transition: transform .18s ease;
+  }
+  input[type="checkbox"]:checked::before{
+    transform: scale(1);
+  }  
+
+
+
+  /* BUTTONS */
+
+    .buttons{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 8px 10px;
+    }
+
+    .button{
+    appearance: none;
+    border:1.4px solid var(--border);
+    border-color: var(--border);
+    padding: .55rem .9rem;
+    border-radius: 999px;                /* form */
+    background: var(--bg);
+    color:#e356e5;
+    box-shadow: var(--shadow-1);
+    font-family: Georgia, serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: .5px;
+    transition: transform .12s ease, box-shadow .12s ease, background .2s;
+    backdrop-filter: saturate(1.2);
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    cursor:pointer;
+    }
+
+    #clickedgod {
+        font-family: 'Great Vibes', cursive;
+        font-style: italic;
+        font-weight: 400; 
+        font-size: 1.25rem;        
+    }
+
+    #clickedgod span {
+        position: relative;
+        top: -2px;   /* nach oben verschieben */
+      }
+      
+
+    #clickedgood {
+        color: #b56fff;
+    }
+
+    #clickedmid {
+        color: #f67543;
+    }
+
+    #clickedbad {
+        color: goldenrod;
+    }
+
+    .button:hover{
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+    }
+
+    .button:active{
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+    }
+
+    /* fokus sichtbar für tastatur ? */
+    .button:focus-visible{
+    outline: 3px solid var(--ring);
+    outline-offset: 2px;
+    box-shadow: var(--shadow);
+    }
+
+    /* angeklcikt */
+    .button.is-active{
+    background: var(--pink);
+    color: white;
+    }
+
+  
+  /* FMK PEOPLE */
+
+  .fmk-grid{
+    display: flex;                  /* statt grid */
+    justify-content: center;        /* alles in die Mitte */
+    gap: 14px;                      /* Abstand zwischen Boxen */
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  
+  .fmk-card {
+    width: 150px;                   /* feste Breite */
+    min-height: 170px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(180deg, #d6f8e9, #c5d5ff);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--god);
+    text-shadow: 1px 2px 6px rgba(226, 131, 233, 0.531);
+  }
+
+  
+  .fmk-label{
+    position:absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    align-items:center;
+    gap:8px;
+    font-size:14px;
+    letter-spacing:.4px;
+    color:var(--muted);
+  }
+  
+  .fmk-output{
+    font-size: clamp(18px, 3vw, 22px);
+    font-weight: 800;
+    letter-spacing:.3px;
+    word-break: break-word;
+  }
+
+  .fmk-testclass {
+    text-align:left;
+  }
+  
+  /* rahmen der cards */
+  #fmkone   {
+    border: solid var(--bg);
+    border-radius: 16px;
+  }
+  #fmktwo   {
+    border: solid var(--bg);
+    border-radius: 16px;
+  }
+  #fmkthree {
+    border: solid var(--bg);
+    border-radius: 16px;
+  }
+
+
+
+  /* handy */
+  img, svg, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media (max-width: 767px){
+
+  .checkbox input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+  }
+
+  .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px 12px;
+  }
+
+  .fmk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+
+  padding: 0 12px;   /* Abstand links und rechts */
+  box-sizing: border-box;
+}
+
+  .fmk-card{
+    width: 100%;
+    min-height: 180px;
+    padding: 10px;
+    flex-direction: column; /* Label + Output untereinander */
+  }
+
+  body::before{
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+
+  #clickedgod {
+    font-family: 'Great Vibes', cursive;
+    font-style: italic;
+    font-weight: 500; 
+    font-size: 1.25rem;        
+    }
+
+  }
+
+  
+  /* blurred background */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  body > * {
+    position: relative;
+    z-index: 1;
+  }
+  
