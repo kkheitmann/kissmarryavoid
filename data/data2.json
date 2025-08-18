@@ -11,7 +11,8 @@
     "category": "god",
     "gender": "male",
     "age": "young",
-    "who": "both"
+    "who": "both",
+    "image1": "assets/fmkbackground.png"
   },
   {
     "person": "john be",
