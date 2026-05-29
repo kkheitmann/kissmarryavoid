@@ -675,12 +675,6 @@
   "age": "young"
  },
  {
-  "person": "jordan lee",
-  "category": "good",
-  "gender": "male",
-  "age": "young"
- },
- {
   "person": "harry styles",
   "category": "good",
   "gender": "male",
@@ -715,8 +709,7 @@
   "person": "lucius malfoy",
   "category": "good",
   "gender": "male",
-  "age": "middle",
-  "who": "both"
+  "age": "middle"
  },
  {
   "person": "lewis",
