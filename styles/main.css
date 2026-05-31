@@ -9,9 +9,9 @@
     --muted: #ff89d6;
     --border: #ffccfc;
 
-    --ring:  rgba(255, 121, 188, 0.45);
-    --pink:  #ff89d6;      
-    --pink-2:#fb71cb;             
+    --ring:  rgba(255, 121, 188, 0.45); /* pink focus */
+    --pink:  #ff89d6;               /* Hauptakzent */
+    --pink-2:#fb71cb;               /* Verlauf */
     --shadow: 0 4px 14px rgba(0,0,0,.12);
     --shadow-sm: 0 2px 6px rgba(0,0,0,.08);
 
@@ -22,68 +22,128 @@
     --bad:   #f87171; /* Rot */
     --accent:#ffc8f2; /* Blau */
   
-    --gap-md: 14px;
-    --gap-lg: 24px;
-    
+    --radius-lg: 16px;
+    --radius-md: 12px;
+    --radius-sm: 10px;
+  
     --shadow-1: 0 10px 30px rgba(0,0,0,.25);
     --shadow-2: 0 4px 14px rgba(0,0,0,.3);
   }
   
 
-  /*base*/
+  
+
+  /*
+     Base
+     */
   *{box-sizing:border-box}
   html,body{height:100%}
   body{
     margin:0;
     font-family: Georgia, serif;
 
-    background: url("../assets/fmkbackground.png") center/cover no-repeat;
+    background: url("../assets/img/fmkbackground.png");
+    background-repeat: repeat;
+    background-size: 65%;
     color:var(--text);
     line-height:1.5;
 
     text-align: center;
+
   }
   
-  /* layout */
+  /*
+     Layout
+    */
+  .app{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+  }
+  
+  .header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+    margin-bottom:22px;
+  }
   
   .title{
     font-size: clamp(26px, 3vw, 36px);
     font-weight:800;
     letter-spacing:.5px;
-    font-style: italic;
   }
   
+  .subtitle{
+    color:var(--muted);
+    font-size: clamp(14px, 2vw, 16px);
+  }
   
-/* filter container */
-.filters{
-  display:flex;
-  justify-content: center;
-  gap:34px;
-  flex-wrap: wrap;
-  padding: 10px 12px;
-}
-
-
-.filter-group h4{
-  margin:0 0 10px; 
-  font-size:16px; 
-  letter-spacing:0.6px; 
+  .main{
+    display:grid;
+    grid-template-columns: 280px 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 900px){
+    .main{ grid-template-columns: 1fr; }
+  }
   
-}
-
-
-/* checkboxen filter */
-.checkbox{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  margin:8px 0;
-  cursor:pointer;
-}
+  /* =========
+     Panels
+     ========= */
+  .panel{
+    background: linear-gradient(180deg, var(--panel), var(--panel-2));
+    border:1px solid var(--border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-1);
+  }
+  
+  .panel__body{ padding: 18px; }
+  
+  .panel__header{
+    padding: 16px 18px 0;
+    font-weight: 700;
+    letter-spacing:.3px;
+  }
+  
+  /* =========
+     Filter-Liste
+     ========= */
+  .filters{
+    display:flex; 
+    flex-direction:column; 
+    gap:14px;
+  }
+  
+  .filter-group{
+    padding:14px;
+    border:1px dashed var(--border);
+    border-radius: var(--radius-md);
+  }
+  
+  .filter-group h4{
+    margin:0 0 10px;
+    font-size:14px;
+    letter-spacing:.4px;
+    color:var(--muted);
+    text-transform:uppercase;
+  }
+  
+  .checkbox{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin:8px 0;
+    user-select:none;
+    cursor:pointer;
+    color:var(--text);
+    font-size:15px;
+  }
 
 
   
-  /* checkboxen */
+  /* hübschere Checkboxen – funktioniert, wenn das Label .checkbox direkt neben dem input steht */
   input[type="checkbox"]{
     appearance:none;
     width:18px; height:18px;
@@ -93,7 +153,6 @@
     display:inline-grid; place-content:center;
     background: var(--bg);
     transition: all .2s ease;
-    cursor:pointer;
   }
   input[type="checkbox"]:hover{
     border-color:rgb(255, 137, 214);
@@ -101,7 +160,7 @@
   
   input[type="checkbox"]::before{
     content:"❤";
-    font-size:15px;
+    font-size:18px;
     color:rgb(226, 119, 255);
     transform: scale(0);
     transition: transform .18s ease;
@@ -114,17 +173,14 @@
 
   /* BUTTONS */
 
-    .buttons{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-      padding: 8px 10px;
+    .buttons {
+        gap: 15px;
     }
 
     .button{
     appearance: none;
     border:1.4px solid var(--border);
+    border-radius:6px;
     border-color: var(--border);
     padding: .55rem .9rem;
     border-radius: 999px;                /* form */
@@ -140,7 +196,6 @@
     width: 70px;
     height: 40px;
     text-align: center;
-    cursor:pointer;
     }
 
     #clickedgod {
@@ -205,14 +260,14 @@
   
   .fmk-card {
     width: 150px;                   /* feste Breite */
-    min-height: 170px;
+    min-height: 200px;
+    position: relative;
+    overflow: hidden;
     border-radius: var(--radius-lg);
-    background: linear-gradient(180deg, #d6f8e9, #c5d5ff);
+    background: linear-gradient(180deg, #cdeee0, #c5d5ff);
     border: 1px solid var(--border);
     box-shadow: var(--shadow-1);
-    position: relative;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-weight: 700;
@@ -221,30 +276,65 @@
   }
 
   
+  .fmk-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    z-index: 0;
+  }
+
+
   .fmk-label{
-    position:absolute;
-    bottom: 6px;
-    left: 50%;
-    transform: translateX(-50%);
-    display:flex;
+    position: absolute;
+    top: 6px;
+    display: block;
     align-items:center;
     gap:8px;
-    font-size:14px;
+    font-size:12px;
     letter-spacing:.4px;
     color:var(--muted);
+    z-index: 3;
   }
   
   .fmk-output{
-    font-size: clamp(18px, 3vw, 22px);
-    font-weight: 800;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing:.3px;
     word-break: break-word;
+    z-index: 2;
+    line-height: 0.95;
+    padding: 5px 10px 10px;
   }
 
-  .fmk-testclass {
-    text-align:left;
+  .fmk-output::before {
+    display: none;
   }
   
+  .fmk-card.is-filled .fmk-output {
+    background: rgba(20, 10, 30, 0.82);
+  }
+
+  .fmk-card.is-filled .fmk-output::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100%;
+    left: 0%;
+    right: 0%;
+    height: 25px;
+    background: linear-gradient(to top, rgba(20,10,30,.82), transparent);
+    pointer-events: none;
+  }
   /* rahmen der cards */
   #fmkone   {
     border: solid var(--bg);
@@ -260,64 +350,6 @@
   }
 
 
-
-  /* handy */
-  img, svg, video {
-    max-width: 100%;
-    height: auto;
-  }
-
-  @media (max-width: 767px){
-
-  .checkbox input[type="checkbox"]{
-    width: 20px;
-    height: 20px;
-  }
-
-  .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    padding: 8px 12px;
-  }
-
-  .fmk-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
-  margin-top: 20px;
-
-  padding: 0 12px;   /* Abstand links und rechts */
-  box-sizing: border-box;
-}
-
-  .fmk-card{
-    width: 100%;
-    min-height: 180px;
-    padding: 10px;
-    flex-direction: column; /* Label + Output untereinander */
-  }
-
-  body::before{
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-  }
-
-  #clickedgod {
-    font-family: 'Great Vibes', cursive;
-    font-style: italic;
-    font-weight: 500; 
-    font-size: 1.25rem;        
-    }
-
-    body {
-    background: url("../assets/fmkbackgroundmobile.png") center/cover no-repeat;
-    }
-
-  }
-
-  
   /* blurred background */
   body::before {
     content: "";
