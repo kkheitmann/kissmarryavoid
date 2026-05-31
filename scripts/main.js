@@ -8,22 +8,6 @@ const fmkOne = document.getElementById("fmkone");
 const fmkTwo = document.getElementById("fmktwo");
 const fmkThree = document.getElementById("fmkthree");
 
-const fmktestDiv = document.getElementById("fmk-testdiv");
-
-
-/*
-//testbutton und testdiv
-const testbutton = document.getElementById("clickedtest");
-const testDiv = document.getElementById("testdiv");
-
-//klick ereignis für testbutton hinzufügen
-testbutton.addEventListener("click", function(){
-    testDiv.textContent = "testing person one";
-
-
-});
-*/
-
 
 //filter eingeben
 const malefilter = document.getElementById("male");
@@ -50,12 +34,6 @@ fetch("data/data2.json")
   .then(res => res.json())
   .then(json => {
     data = json;                       // <-- Daten verfügbar machen
-
-
-    //testbutton und testdiv
-    const testbutton = document.getElementById("clickedtest");
-    const testDiv = document.getElementById("testdiv");
-    
 
 
     //function um die filter anzuwenden
@@ -95,10 +73,18 @@ fetch("data/data2.json")
     }
 
     //character an der richtigen stelle anzeigen auf der card & who anzeigen &  fragezeichen weg
-    function putCharacter(cardElement, name, who) {
+    function putCharacter(cardElement, name, who, folder, imageCount) {
+
+        cardElement.classList.add("is-filled");
+        
         const output = cardElement.querySelector(".fmk-output");
+        const image = cardElement.querySelector(".fmk-img");
         const label  = cardElement.querySelector(".fmk-label");
-        const cardTitle = cardElement.querySelector(".cardtitle");
+
+        if (image && folder && imageCount > 0) {
+            const randomNum = Math.floor(Math.random() * imageCount) + 1;
+            image.src = "assets/people/" + folder + "/" + randomNum + ".jpg";
+        }
 
         if (output) output.textContent = name ?? "";
 
@@ -109,8 +95,6 @@ fetch("data/data2.json")
                 label.textContent = ""; // "both" oder unbekannt -> nichts anzeigen
             }
         }
-
-        cardTitle.style.display = "none";
         
     }
 
@@ -157,10 +141,12 @@ fetch("data/data2.json")
 
         let finalWhos = finalCharacters.map(character => character.who);
         let finalNames = finalCharacters.map(character => character.person);
+        let finalFolders = finalCharacters.map(character => character.folder);
+        let finalImageCount = finalCharacters.map(character => character.imageCount);
 
-        putCharacter(fmkOne, finalNames[0], finalWhos[0]);
-        putCharacter(fmkTwo, finalNames[1], finalWhos[1]);
-        putCharacter(fmkThree, finalNames[2], finalWhos[2]);
+        putCharacter(fmkOne, finalNames[0], finalWhos[0], finalFolders[0], finalImageCount[0]);
+        putCharacter(fmkTwo, finalNames[1], finalWhos[1], finalFolders[1], finalImageCount[1]);
+        putCharacter(fmkThree, finalNames[2], finalWhos[2], finalFolders[2], finalImageCount[2]);
     });
 
     goodbutton.addEventListener("click", function(){
@@ -175,11 +161,13 @@ fetch("data/data2.json")
 
         let finalWhos = finalCharacters.map(character => character.who);
         let finalNames = finalCharacters.map(character => character.person);
+        let finalFolders = finalCharacters.map(character => character.folder);
+        let finalImageCount = finalCharacters.map(character => character.imageCount);
 
-        putCharacter(fmkOne, finalNames[0], finalWhos[0]);
+        putCharacter(fmkOne, finalNames[0], finalWhos[0], finalFolders[0], finalImageCount[0]);
         console.log(finalWhos[0]);
-        putCharacter(fmkTwo, finalNames[1], finalWhos[1]);
-        putCharacter(fmkThree, finalNames[2], finalWhos[2]);
+        putCharacter(fmkTwo, finalNames[1], finalWhos[1], finalFolders[1], finalImageCount[1]);
+        putCharacter(fmkThree, finalNames[2], finalWhos[2], finalFolders[2], finalImageCount[2]);
     });
 
     midbutton.addEventListener("click", function(){
@@ -194,10 +182,12 @@ fetch("data/data2.json")
 
         let finalWhos = finalCharacters.map(character => character.who);
         let finalNames = finalCharacters.map(character => character.person);
+        let finalFolders = finalCharacters.map(character => character.folder);
+        let finalImageCount = finalCharacters.map(character => character.imageCount);
 
-        putCharacter(fmkOne, finalNames[0], finalWhos[0]);
-        putCharacter(fmkTwo, finalNames[1], finalWhos[1]);
-        putCharacter(fmkThree, finalNames[2], finalWhos[2]);
+        putCharacter(fmkOne, finalNames[0], finalWhos[0], finalFolders[0], finalImageCount[0]);
+        putCharacter(fmkTwo, finalNames[1], finalWhos[1], finalFolders[1], finalImageCount[1]);
+        putCharacter(fmkThree, finalNames[2], finalWhos[2], finalFolders[2], finalImageCount[2]);
     });
 
     badbutton.addEventListener("click", function(){
@@ -212,9 +202,11 @@ fetch("data/data2.json")
 
         let finalWhos = finalCharacters.map(character => character.who);
         let finalNames = finalCharacters.map(character => character.person);
+        let finalFolders = finalCharacters.map(character => character.folder);
+        let finalImageCount = finalCharacters.map(character => character.imageCount);
 
-        putCharacter(fmkOne, finalNames[0], finalWhos[0]);
-        putCharacter(fmkTwo, finalNames[1], finalWhos[1]);
-        putCharacter(fmkThree, finalNames[2], finalWhos[2]);
+        putCharacter(fmkOne, finalNames[0], finalWhos[0], finalFolders[0], finalImageCount[0]);
+        putCharacter(fmkTwo, finalNames[1], finalWhos[1], finalFolders[1], finalImageCount[1]);
+        putCharacter(fmkThree, finalNames[2], finalWhos[2], finalFolders[2], finalImageCount[2]);
     });
   });
